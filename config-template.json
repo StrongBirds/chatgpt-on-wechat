@@ -3,17 +3,19 @@
   "model": "gpt-3.5-turbo",
   "proxy": "",
   "single_chat_prefix": [
-    ""
+    "bot",
+    "@bot"
   ],
-  "single_chat_reply_prefix": "",
+  "single_chat_reply_prefix": "[bot] ",
   "group_chat_prefix": [
-    "@机灵鬼"
+    "@bot"
   ],
   "group_name_white_list": [
-    "ALL_GROUP"
+    "ChatGPT测试群",
+    "ChatGPT测试群2"
   ],
   "group_chat_in_one_session": [
-    "ALL_GROUP"
+    "ChatGPT测试群"
   ],
   "image_create_prefix": [
     "画",
